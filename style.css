@@ -1,0 +1,130 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+.hero{
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background-image: url(img/Design.png);
+}
+
+nav{
+	display: flex;
+	width: 84%;
+	margin: auto;
+	padding: 20px 0;
+	align-items: center;
+	justify-content: space-between;
+}
+
+nav ul li{
+	display: inline-block;
+	list-style: none;
+	margin: 13px 20px;
+}
+
+.logo{
+	width: 100px;
+	height: 100px;
+	border-radius: 30px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+nav ul .q1 a:hover{
+	color: red;
+}
+
+nav ul .w1 a:hover{
+	color: yellow;
+}
+
+nav ul .e1 a:hover{
+	color: pink;
+}
+
+nav ul .r1 a:hover{
+	color: violet;
+}
+
+nav ul .t1 a:hover{
+	color: blue;
+}
+
+.detel h1:hover{
+	color: purple;
+}
+
+.detel h1 span:hover{
+	color: brown;
+}
+
+.dow:hover{
+	color: red;
+}
+
+.detel{
+	margin-left: 8%;
+	margin-top: 15%;
+}
+
+.detel h1{
+	font-size: 50px;
+	color: #212121;
+	margin-bottom: 20px;
+}
+
+span{
+	color: blue;
+}
+
+.detel p{
+	color: black;
+	line-height: 22px;
+}
+
+.detel a{
+	background: black;
+	padding: 13px 18px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #fff;
+	display: inline-block;
+	margin: 30px 0;
+	border-radius: 5px;
+}
+
+.images{
+	width: 35%;
+	height: 70%;
+	position: absolute;
+	bottom: 0;
+	right: 100px;
+}
+
+.images img{
+	height: 100%;
+	border-radius: 30px;
+	position: absolute;
+	left: 60%;
+	bottom: 0;
+	transform: translateX(-50%);
+	transition: bottom 1s, left 1s;
+}
+
+.images:hover .lpo{
+	bottom: 40px;
+}
+
+.images:hover .lp{
+	bottom: 45%;
+}
+
+
